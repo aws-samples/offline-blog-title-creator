@@ -1,11 +1,41 @@
-## My Project
+# Create a Blog Title App with Offline Support using AWS Amplify Gen 2
 
-TODO: Fill this README out!
+This app demonstrates how to use AWS Amplify Gen 2 with TanStack Query, to create an offline app.
 
-Be sure to:
+## Getting Started
 
-* Change the title in this README
-* Edit your repository description on GitHub
+### Clone repo
+
+```
+
+git clone https://github.com/aws-samples/offline-blog-title-creator
+cd offline-blog-title-creator
+
+```
+
+### Install the packages
+
+```
+
+npm i
+
+```
+
+### Initiate a cloud sandbox environment
+
+```
+
+npx ampx sandbox
+
+```
+
+### Run the App
+
+```
+
+npm run dev
+
+```
 
 ## Security
 
@@ -14,4 +44,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-
